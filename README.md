@@ -1,14 +1,36 @@
 # FrontEndAngular6Test
 
+1 The back-end was generated with NodeJs 8.11.2
+2 The fron-end project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
-## Node.js server
+## Back-end  Node.js server
+
+With Node.js correctly installed open a command terminal and access the root directory /server of this project
+
+Install dependencies 
+
+     npm install
+
+Start server
+
+    npm start
 
 
 ## Angular Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+With Angular 6 correctly installed open a command terminal and access the root directory of this project
+
+Install dependencies 
+
+     npm install
+
+Start server
+
+    ng serve
+
+
+Navigate to `http://localhost:4200/`.
 
 ## Running end-to-end tests
 
