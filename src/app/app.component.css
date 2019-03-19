@@ -1,0 +1,109 @@
+ul { padding: 0 }
+
+li { 
+   padding: 10px;
+   margin-left: 33px;
+   margin-right: 33px;
+   background-color: rgb(234, 239, 245);
+   list-style: none;
+   text-align: left;
+   border-radius: 0px 8px 8px 0px;
+    
+}
+.war-view {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+h2 {
+    font-weight: 100;
+    line-height: 30px;
+}
+
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+}
+
+
+.app-title {
+    width: 100%;
+    display: flex;
+}
+
+
+
+.content-list {
+    background-color:#f5f5f5; 
+    display: inline-block; 
+    width: 100%; 
+    margin-top:5px;
+    border:solid 2px rgb(234, 239, 245); 
+    border-radius: 0px 10px 10px 0px; 
+}
+
+.user-logo {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-top:5px;
+    margin-left:11px;
+}
+
+.users-logo {
+    width: 64px;
+    height: 64px;
+}
+
+.user-name {
+    float:left;
+    padding:5px;
+    margin-left: 10px;
+}
+
+.user-info {
+    padding: 10px 10px 0px 10px
+}
+
+.show-hide{
+    float:right;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.comment {
+    margin-top:10px
+}
+
+  @media screen and (min-width: 700px) and (max-width : 768px) {
+    .war-view { display: none }
+    .container{
+        width: 90%;
+        display: block;
+    }
+    
+  }
+  
+  @media screen and (min-width : 1240px)  and (max-width : 1280px)  {
+    .war-view { display: none }
+    .container{
+        width: 80%;
+        display: block;
+    }
+  
+   
+}
+
+    @media screen and (min-width : 1880px) and (max-width : 1920px) {
+        .war-view { display: none }
+        .container{
+            width: 70%;
+            display: block;
+        }
+    
+  }

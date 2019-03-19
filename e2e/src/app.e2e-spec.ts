@@ -9,6 +9,6 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to front-end-angular6-test!');
+    expect(page.getParagraphText()).toEqual('Resuoltions available: Full HD (1920), HD (1280) and Wide VGA (768)');
   });
 });
